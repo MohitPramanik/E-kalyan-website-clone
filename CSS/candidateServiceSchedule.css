@@ -1,0 +1,28 @@
+#head-note{
+    border-bottom: 1px solid green;
+    padding: 5px;
+}
+
+#head-note+ul{
+    padding: 9px 33px;
+}
+
+#notes{
+    padding: 0;
+    width: 73%;
+}
+
+td button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td span{
+    font-weight: bold;
+}
+
+table li{
+    list-style: none;
+    padding: 10px;
+}

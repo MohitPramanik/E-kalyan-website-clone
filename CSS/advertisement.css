@@ -1,0 +1,26 @@
+.box{
+    width: 85%;
+    padding: 7px 30px;
+}
+
+.box li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #b7b7b7;
+    font-weight: 600;
+    font-size: 13px;
+
+}
+
+.box img{
+    height: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#no-border{
+    border: none;
+}

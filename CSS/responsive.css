@@ -1,0 +1,242 @@
+@media (min-width: 2277px) and (max-width: 2971px) {
+    #show-details {
+        position: relative;
+        left: 238px;
+    }
+}
+
+@media (max-width: 1521px) {
+    #show {
+        flex-direction: column;
+    }
+
+    #image img {
+        height: 55vw;
+    }
+
+    #show-details {
+        justify-content: center;
+        padding: 0 54px;
+    }
+}
+
+@media screen and (max-width: 1445px) {
+    .image {
+        width: 38px;
+    }
+
+    #birsa-munda {
+        left: 175%;
+    }
+}
+
+@media screen and (max-width: 1204px) {
+    nav {
+        padding: 12px;
+        overflow: hidden;
+    }
+
+    #hamburger {
+        display: block !important;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 96%;
+        padding: 20px;
+    }
+
+    nav ul> li{
+        overflow: hidden;
+    }
+
+    .hover-box {
+        width: 107%;
+        position: relative;
+        
+    }
+
+    #navamali,
+    #reports ,
+    #all-services,
+    #logins,
+    #links {
+        top: 24px;
+        left: -9px;
+        width: 107%;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    #scheme-box {
+        margin: 0;
+    }
+
+    #reach {
+        width: 50%;
+    }
+
+    #main-links {
+        width: 40%;
+    }
+
+    #grey {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #bottom div {
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 994px) {
+    #department-head>div {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #buttons {
+        flex-direction: column;
+    }
+
+    #buttons div {
+        width: 84%;
+        margin: 5px;
+    }
+
+    .text p {
+        width: 200px;
+        margin-left: 57px;
+    }
+
+    #about {
+        flex-direction: column;
+    }
+
+    #welcome-section {
+        width: 100%;
+        padding: 40px 37px;
+    }
+
+    /* .details {
+        right: 17px;
+        width: 100%;
+    } */
+
+    .details p {
+        margin: 0;
+    }
+
+    .details span {
+        position: relative;
+        bottom: 13px;
+    }
+
+    #contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contact div {
+        width: 89%;
+        margin: 10px 11px;
+    }
+
+    .dark-green-box {
+        width: 71% !important;
+        margin: 10px 11px !important;
+    }
+
+}
+
+@media (max-width: 865px) {
+    .dark-green-box {
+        width: 69% !important;
+    }
+}
+
+@media (max-width: 848px) {
+    #scheme-box {
+        flex-direction: column;
+    }
+
+    .show-box {
+        width: 93%;
+    }
+
+    .dark-green-box {
+        width: 67% !important;
+    }
+}
+
+@media (max-width: 716px) {
+    #department-head {
+        flex-direction: column;
+    }
+
+    #department-head>div {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .heads-image img {
+        margin-left: 16px;
+        height: 105px;
+        width: 105px;
+    }
+
+    .text p {
+        width: 87%;
+        margin-left: 16px;
+    }
+
+    .details {
+        padding: 29px 5px;
+    }
+
+    .dark-green-box {
+        width: 65% !important;
+    }
+}
+
+
+@media (max-width: 646px) {
+    .dark-green-box {
+        width: 62% !important;
+    }
+
+    #show-details {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .show-box {
+        flex-direction: column;
+    }
+
+    .show-box img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 578) {
+    .dark-green-box {
+        width: 59% !important;
+    }
+}
+
+@media (max-width: 562px){
+    .dark-green-box {
+    width: 55% !important;
+}
+}

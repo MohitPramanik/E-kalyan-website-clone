@@ -1,0 +1,15 @@
+#card {
+    width: 410px;
+}
+
+.selection p{
+    width: 388px;
+    font-size: 12px;
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 13px;
+}

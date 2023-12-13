@@ -1,0 +1,151 @@
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(/images/studentLoginBackground.jpg) no-repeat;
+    background-size: 100%;
+    margin-top: -11px;
+    object-fit: cover;
+}
+
+#main h2{
+    font-size: 30px;
+    color: rgb(12, 12, 135);
+    font-family: sans-serif;
+    line-height: 1.7;
+}
+
+#main h3{
+    font-size: 25px;
+    color: rgb(12, 12, 135);
+    font-family: sans-serif;
+    line-height: 1.7;
+}
+
+#card{
+    border: 1px solid #0000ff69;
+    padding: 20px;
+    background: #87ceeb6e;
+    margin: 30px;
+    backdrop-filter: blur(20px);
+    width: 473px;
+    border-radius: 11px;
+    box-shadow: -3px 0px 19px -4px black;
+}
+
+#login-buttons{
+    border: 1px solid black;
+    padding: 0 20px;
+    color: rgb(12, 12, 135);
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#login-buttons button{
+    padding: 8px 51px;
+    margin: 6px;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 1px solid white;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.input i{
+    background: #e5e5e5;
+    border: 1px solid #bab2b2;
+    height: 25px;
+    width: 42px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.input input{
+    width: 100%;
+    padding: 3px 13px;
+    border: none;
+}
+
+.input input:focus-visible{
+    outline-width: inherit;
+    border: 1px solid black;
+}
+
+#capcha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 17px;
+}
+
+.reload {
+    position: relative;
+    left: 10px;
+    top: 4px;
+    cursor: pointer;
+}
+
+
+.generated{
+    background: url(/images/captcha.jpg);
+    padding: 1px 15px;
+    font-size: 19px;
+    text-align: center;
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+#enter-capcha {
+    margin: 2px 20px;
+    font-family: sans-serif;
+}
+
+#enter-capcha input{
+    font-size: 17px;
+    width: 116px;
+}
+
+#submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#submit button{
+    padding: 8px 41px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    background: linear-gradient(to left, #ff5902 50%, green 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+#submit button:hover{
+    background-position: left;
+    cursor: pointer;
+}
+
+
+#submit a{
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: blue;
+}

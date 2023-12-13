@@ -1,0 +1,119 @@
+/* first card */
+
+#main{
+    display: flex;
+    flex-direction: row;
+}
+
+#card1{
+    border: 1px solid #0000ff69;
+    padding: 20px;
+    background: #87ceeb6e;
+    margin: 30px 0;
+    backdrop-filter: blur(20px);
+    width: 40%;
+    border-radius: 11px 0 0 11px;
+    min-height: 390px;
+    overflow: auto;
+}
+
+h2{
+    text-align: center;
+    color: #3e3eaa;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.input p{
+    background-color: #e5e5e5;
+    width: 40%;
+    font-size: 19px;
+    font-family: sans-serif;
+    padding: 7px 21px;
+    color: #000000d9;
+}
+
+.input input{
+    width: 60%;
+    font-size: 19px;
+}
+.input select {
+    width: 64%;
+    font-size: 19px;
+    padding: 0 10px;
+}
+
+button{
+    padding: 12px 41px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    background: linear-gradient(to left, #ff5902 50%, green 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    display: block;
+    width: max-content;
+    margin: 20px auto;
+}
+
+button:hover{
+    background-position: left;
+    cursor: pointer;
+}
+
+
+/* second card */
+
+#card2{
+    background-color: white;
+    width: 40%;
+    padding: 20px;
+    border-radius: 0 11px 11px 0;
+    min-height: 390px;
+    overflow: auto;
+}
+
+#card2 h2{
+    color: black;
+    margin: 10px 0;
+    border-top-right-radius: 11px;
+    text-align: center;
+}
+
+#card2 h2,
+#card2 div
+{
+    border: 1px solid #d5d5d5;
+}
+
+#card2 div
+{
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+}
+
+#card2 div p
+{
+    padding: 0 10px;
+}
+
+.purple{
+    color: purple;
+}
+
+.blue{
+    color: blue;
+    position: relative;
+    left: 24px;
+}
+
+.red{
+    list-style: none;
+    color: red;
+    position: relative;
+    right: 5px;
+}
