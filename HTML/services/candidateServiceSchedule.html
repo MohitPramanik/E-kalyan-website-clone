@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Kalyan</title>
+    <link rel="stylesheet" href="../../CSS/index.css">
+    <link rel="stylesheet" href="../../css/login.css">
+    <link rel="stylesheet" href="../../CSS/school_services_and_schedule.css">
+    <link rel="stylesheet" href="../../CSS/candidateServiceSchedule.css">
+    <link rel="stylesheet" href="../../CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body onload="putCapcha()">
+
+    <div id="blackBack"></div>
+
+    <header id="header">
+        <div id="size-row">
+            <ul>
+                <li id="size-increase">A+</li>
+                <li id="normal-size">A</li>
+                <li id="size-decrease">A-</li>
+                <li id="recolor">A</li>
+                <li id="grey-maker">A</li>
+                <li><i class="fa-solid fa-wheelchair"></i></li>
+                <li><i class="fa  fa-sign-in"></i></li>
+            </ul>
+        </div>
+        <div id="heading">
+            <div id="intro">
+                <img src="../../images/logo.jpg" id="logo">
+                <div id="short-intro">
+                    <span>e-Kalyan</span>
+                    <p>Department of Scheduled Tribe, Scheduled Caste, Minority and
+                        Backward Class Welfare, Govt.of Jharkhand</p>
+                </div>
+            </div>
+            <div class="image">
+                <img src="../../images/Birsa-Munda.jpg" id="birsa-munda">
+            </div>
+            <div class="image">
+                <img src="../../images/Digital_India.jpg" id="digital-india">
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <button id="hamburger" class="fa-solid fa-bars"></button>
+        <ul id="button-ul">
+            <li><a href="../../HTML/index.html">HOME</a></li>
+            <li>PRE & POST MATRIC NYAMAVALI 2022 <i class="fa-sharp fa-solid fa-caret-down"></i>
+
+                <section class="hover-box" id="navamali">
+                    <a href="/pdf/Post_Matric_Scholarship_sankalp_2022.pdf">
+            <li><img src="../../images/new_1.gif">Post Matric Scholarship Niyamavali <br> Sankalp no.2587 - 2022-23 Advt
+                29-08-2022</li>
+            </a>
+            <a href="/pdf/Pre_Matric_Scholarship_sankalp_2022_5.12.2022.pdf">
+                <li><img src="../../images/new_1.gif">Pre Matric Scholarship Niyamavali <br> Sankalp no.2587 - 2022-23 Advt
+                    05-12-2022</li>
+            </a>
+            <a href="/pdf/Pre_Matric_Scholarship_sankalp_2022.pdf">
+                <li><img src="../../images/new_1.gif">Pre Matric Scholarship Niyamavali <br> Sankalp no.2587 - 2022-23 Advt
+                    29-08-2022</li>
+            </a>
+
+            </section>
+
+            </li>
+            <li>SERVICES & SCHEDULE <i class="fa-sharp fa-solid fa-caret-down"></i>
+                <section class="hover-box" id="all-services">
+                    <a href="../../HTML/services/school_services_and_schedule.html">
+            <li>Schools services and schedule (Pre-Matric)</li>
+            </a>
+            <a href="../../HTML/services/candidateServiceSchedule.html">
+                <li>Students services and schedule (Post-Matric)</li>
+            </a>
+            <a href="../../HTML/services/collegeServicesSchedule.html">
+                <li>Institution/college services and schedule (Post-Matric)</li>
+            </a>
+            </section>
+            </li>
+            <li>REPORTS <i class="fa-sharp fa-solid fa-caret-down"></i>
+                <section class="hover-box" id="reports">
+                    <a href="../../HTML/reports/ekalyanSummary.html">
+            <li>E-kalyan summary report</li>
+            </a>
+            <a href="../../HTML/reports/preMatricReport.html">
+                <li>Pre-matric report</li>
+            </a>
+            <a href="../../HTML/reports/postMatricWithinState.html">
+                <li>Post-matric(within state) report</li>
+            </a>
+            <a href="../../HTML/reports/postMatricOutsideState.html">
+                <li>Post-matric(outside state) report</li>
+            </a>
+            </section>
+            </li>
+            <li><a href="../../HTML/eligibility.html">ELIGIBILITY</a></li>
+            <li><a href="../../HTML/advertisement.html">ADVERTISEMENTS</a></li>
+            <li><a href="../../HTML/grievance.html">GRIEVANCES</a></li>
+            <li>LOGINS <i class="fa-sharp fa-solid fa-caret-down"></i>
+                <section class="hover-box" id="logins">
+            <li id="login-school"><i class="fa fa-sign-in"></i>&nbsp; &nbsp;School login (ino)</li>
+            <li id="login-college-within"><i class="fa fa-sign-in"></i>&nbsp; &nbsp;Institution/college login (within
+                state)</li>
+            <li id="login-college-outside"><i class="fa fa-sign-in"></i>&nbsp; &nbsp;Institution/college login (outside
+                state)</li>
+            <li id="login-official"><i class="fa fa-sign-in"></i>&nbsp; &nbsp;Official login</li>
+            </section>
+            </li>
+            <li>MORE LINKS <i class="fa-sharp fa-solid fa-caret-down"></i>
+                <section class="hover-box" id="links">
+            <li><a href="../../HTML/faq.html">Faq's</a></li>
+            <li><a href="../../HTML/searchColleges.html">Search Colleges</a></li>
+            <li><a href="../../HTML/searchIFSC.html">Search Bank IFSC Code</a></li>
+            <li><a href="../../HTML/collegeRegistrationStatus.html">Know your college registration status</a></li>
+            <li><a href="../../HTML/forgot_password.html">Forgot Password</a></li>
+            </section>
+            </li>
+
+        </ul>
+    </nav>
+
+    <div id="content">
+        <div id="notes">
+            <h2 id="head-note">Student Notes</h2>
+            <ul>
+                <li> Students are not required to provide their bank account details like bank account number, IFSC code
+                    in the Post Matric application form. Scholarship amount will be automatically transferred to Aadhaar
+                    linked bank account number through ABPS./li>
+                <li>Check status of your AADHAAR linked bank account number <a href="#" class="red"
+                        style="font-weight: 400;">Click Here</a></li>
+            </ul>
+        </div>
+
+        <h2>Academic Year : 2022-23</h2>
+
+        <hr>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>Notification</th>
+                    <th>Schedule (Opening & closing dates)</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>1</td>
+                    <th>
+                        <p>Student Registration & Login process help file</p>
+                    </th>
+                    <td><button> <a href="forgot_password.html">CLICK HERE</a> </button><img src="../../images/new_1.gif">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <th>
+                        <p>Registration of Post Matric Fresh</p>
+                        <p class="blue">( Within State & Outside State )</p>
+                    </th>
+                    <td>
+                        <ol>
+                            <li> 1) <b>10.03.2023 to 20.06.2023 <span class="blue">( Extension - 6 )</span></b><img
+                                    src="../../images/new_1.gif"></li>
+                            <li> 2) 10.03.2023 to 20.05.2023 <span class="blue">( Extension - 5 )</span></li>
+                            <li> 3) 10.03.2023 to 10.05.2023 <span class="blue">( Extension - 4 )</span></li>
+                            <li> 4) 10.03.2023 to 20.04.2023 <span class="blue">( Extension - 3 )</span></li>
+                            <li> 5) 10.03.2023 to 10.04.2023 <span class="blue">( Extension - 2 )</span></li>
+                            <li> 6) 10.03.2023 to 24.03.2023 <span class="blue">( Extension - 1 )</span></li>
+                            <li> 7) 10.03.2023 to 17.03.2023 <span class="blue">( Opening dates )</span></li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <th>
+                        <p>Student application verification by institutions/colleges for academic year 2022-23</p>
+                    </th>
+                    <td>
+                        <ol>
+                            <li> 1) <b> 10.03.2023 to 30.06.2023 <span class="blue">( Extension - 5 )</span></b><img
+                                    src="../../images/new_1.gif"></li>
+                            <li> 2) 10.03.2023 to 27.05.2023 <span class="blue">( Extension - 5 )</span></li>
+                            <li> 3) 10.03.2023 to 17.05.2023 <span class="blue">( Extension - 4 )</span></li>
+                            <li> 4) 10.03.2023 to 29.04.2023 <span class="blue">( Extension - 3 )</span></li>
+                            <li> 5) 10.03.2023 to 11.04.2023 <span class="blue">( Extension - 2 )</span></li>
+                            <li> 6) 10.03.2023 to 25.03.2023 <span class="blue">( Extension - 1 )</span></li>
+                            <li> 7) 10.03.2023 to 18.03.2023 <span class="blue">( Opening dates )</span></li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <th>
+                        <p>Edit Post-Matric application for academic year 2022-23</p>
+                        <p class="blue">( Within State & Outside State )</p>
+                    </th>
+                    <td>
+                        <ol>
+                            <li> 1) <b> 10.03.2023 to 30.06.2023 <span class="blue">( Extension - 5 )</span></b><img
+                                    src="../../images/new_1.gif"></li>
+                            <li> 2) 10.03.2023 to 27.05.2023 <span class="blue">( Extension - 5 )</span></li>
+                            <li> 3) 10.03.2023 to 17.05.2023 <span class="blue">( Extension - 4 )</span></li>
+                            <li> 4) 10.03.2023 to 29.04.2023 <span class="blue">( Extension - 3 )</span></li>
+                            <li> 5) 10.03.2023 to 11.04.2023 <span class="blue">( Extension - 2 )</span></li>
+                            <li> 6) 10.03.2023 to 25.03.2023 <span class="blue">( Extension - 1 )</span></li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <th>
+                        <p> Edit Uploaded Documents for academic year 2022-23</p>
+                        <p class="blue">( Within State & Outside State )</p>
+                    </th>
+                    <td>
+                        <ol>
+                            <li> 1) <b> 10.03.2023 to 30.06.2023 <span class="blue">( Extension - 5 )</span></b><img
+                                    src="../../images/new_1.gif"></li>
+                            <li> 2) 10.03.2023 to 27.05.2023 <span class="blue">( Extension - 5 )</span></li>
+                            <li> 3) 10.03.2023 to 17.05.2023 <span class="blue">( Extension - 4 )</span></li>
+                            <li> 4) 10.03.2023 to 29.04.2023 <span class="blue">( Extension - 3 )</span></li>
+                            <li> 5) 10.03.2023 to 11.04.2023 <span class="blue">( Extension - 2 )</span></li>
+                            <li> 6) 10.03.2023 to 25.03.2023 <span class="blue">( Extension - 1 )</span></li>
+                        </ol>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <th>
+                        <p> Student Forgot Password</p>
+                        <p class="blue">( Forgot Password ) </p>
+                    </th>
+                    <td><button> <a href="forgot_password.html">CLICK HERE</a> </button><img src="../../images/new_1.gif">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <th>
+                        <p> Post Matric Application Status for academic year</p>
+                        <p>2014-15 to 2021-22 </p>
+                    </th>
+                    <td><button> <a href="forgot_password.html">CLICK HERE</a> </button></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div id="school-info" class="show-section">
+        <div class="main-card">
+            <h2>
+                <p>School Login (INO)</p><button class="fa-solid fa-xmark cross"></button>
+            </h2>
+            <div>
+                <input type="text" name="user-id" id="user-id-school" class="put" placeholder="User ID">
+            </div>
+            <div class="password-box">
+                <input type="password" name="password" id="password-school" class="put" placeholder="Password">
+                <button id="showed" class="show-password fa fa-eye"></button>
+                <button id="hided" class="show-password fa-regular fa-eye-slash"></button>
+            </div>
+            <div id="capcha">
+                <p class="generated"></p>
+                <i class="reload fa-solid fa-arrows-rotate"></i>
+                <p id="enter-capcha"> Enter Capcha : <input type="text" name="entered1" id="entered1"></p>
+            </div>
+            <div class="forgot">
+                <p style="color:rgb(84, 84, 229)"><a href="../../HTML/forgot_password.html">Forgot Password</a></p>
+            </div>
+            <div id="submit">
+                <button><i class="fa  fa-sign-in"></i> LOG IN</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="college-login-within" class="show-section">
+        <div class="main-card">
+            <h2>
+                <p>Institution/College Login (Within State)</p><button class="fa-solid fa-xmark cross"></button>
+            </h2>
+            <div>
+                <input type="text" name="user-id" id="user-id-college-within" class="put" placeholder="User ID">
+            </div>
+            <div class="password-box">
+                <input type="password" name="password" id="password-college-within" class="put" placeholder="Password">
+                <button id="showed" class="show-password fa fa-eye"></button>
+                <button id="hided" class="show-password fa-regular fa-eye-slash"></button>
+            </div>
+            <div id="capcha">
+                <p class="generated"></p>
+                <i class="reload fa-solid fa-arrows-rotate"></i>
+                <p id="enter-capcha"> Enter Capcha : <input type="text" name="entered2" id="entered2"></p>
+            </div>
+            <div class="forgot">
+                <p style="color:rgb(84, 84, 229)"><a href="../../HTML/forgot_password.html">Forgot Password</a></p>
+            </div>
+            <div id="submit">
+                <button><i class="fa  fa-sign-in"></i> LOG IN</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="official-login" class="show-section">
+        <div class="main-card">
+            <h2>
+                <p>Official Login</p><button class="fa-solid fa-xmark cross"></button>
+            </h2>
+            <div>
+                <input type="text" name="user-id" id="user-id-official" class="put" placeholder="User ID">
+            </div>
+            <div class="password-box">
+                <input type="password" name="password" id="password-official" class="put" placeholder="Password">
+                <button id="showed" class="show-password fa fa-eye"></button>
+                <button id="hided" class="show-password fa-regular fa-eye-slash"></button>
+            </div>
+            <div id="capcha">
+                <p class="generated"></p>
+                <i class="reload fa-solid fa-arrows-rotate"></i>
+                <p id="enter-capcha"> Enter Capcha : <input type="text" name="entered3" id="entered3"></p>
+            </div>
+            <div class="forgot">
+                <p style="color:rgb(84, 84, 229)"><a href="../../HTML/forgot_password.html">Forgot Password</a></p>
+            </div>
+            <div id="submit">
+                <button><i class="fa  fa-sign-in"></i> LOG IN</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="college-login-outside" class="show-section">
+        <div class="main-card">
+            <h2>
+                <p>Institution/College Login (Outside State)</p><button class="fa-solid fa-xmark cross"></button>
+            </h2>
+            <div>
+                <input type="text" name="user-id" id="user-id-college-outside" class="put" placeholder="User ID">
+            </div>
+            <div class="password-box">
+                <input type="password" name="password" id="password-college-outside" class="put" placeholder="Password">
+                <button id="showed" class="show-password fa fa-eye"></button>
+                <button id="hided" class="show-password fa-regular fa-eye-slash"></button>
+            </div>
+            <div id="capcha">
+                <p class="generated"></p>
+                <i class="reload fa-solid fa-arrows-rotate"></i>
+                <p id="enter-capcha"> Enter Capcha : <input type="text" name="entered4" id="entered4"></p>
+            </div>
+            <div class="forgot">
+                <p style="color:rgb(84, 84, 229)"><a href="../../HTML/forgot_password.html">Forgot Password</a></p>
+            </div>
+            <div id="submit">
+                <button><i class="fa  fa-sign-in"></i> LOG IN</button>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div id="upper">
+            <div id="grey">
+                <div>
+                    <img src="../../images/logo.jpg">
+                </div>
+                <div>
+                <p>e-Kalyan</p><br>
+                <p>Scheduled Tribe, Scheduled Cast,</p><br>
+                <p>Minority and Backward Class Welfare</p><br>
+                <p>Department, Govt.of Jharkhand</p><br>
+            </div>
+            </div>
+            <div id="main-links">
+                <h3>SITE MAP</h3>
+                <p><a href="../../HTML/index.html">Home</a></p>
+                <p><a href="../../HTML/index.html">About Us</a></p>
+                <p><a href="../../HTML/faq.html">FAQs</a></p>
+                <p><a href="../../HTML/index.html">GO's and Acts</a></p>
+            </div>
+            <div id="reach">
+                <h3> REACH US</h3>
+                <p> <img src="../../images/flat-email-icon.png" class="foot-img">helpdeskekalyan [at] cgg [dot] gov [dot] in
+                </p>
+                <p><img src="../../images/phone.png" class="foot-img"> Off:- 040-23120591, 040-23120592, 040-23120593</p>
+            </div>
+        </div>
+        <hr>
+        <div id="bottom">
+            <div>
+                <p>Copyright 2022 e-Kalyan.</p>
+                <p>Content owned, maintained and updated by Department of e-Kalyan</p>
+            </div>
+            <div>
+                <p>Designed & Developed by : </p>
+                <img src="../../images/footer-logo.png">
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../JS/logins.js"></script>
+    <script src="../../JS/size.js"></script>
+    <script src="../../js/capcha_generator.js"></script>
+
+</body>
+
+</html>
